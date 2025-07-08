@@ -61,8 +61,8 @@ nav ul{
     font-size: 18px;
 }
 .banner-profile-pic{
-    width: 584px;
-    height: 676px;
+    width: 500px;
+    height: 600px;
 }
 .banner{
     display: flex;
@@ -74,8 +74,8 @@ nav ul{
 }
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: none;
-    background-position:top left, bootom right ;
+    background-repeat: no-repeat;
+    background-position:top left, bottom right ;
 }
 .section-title{
     font-size: 35px;
@@ -156,4 +156,15 @@ footer input[type="text"], footer input[type="email"], footer textarea{
    margin-bottom: 24px;
    border: none;
 
+}
+.banner-img{
+    background-repeat: none;
+}
+.button-align{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 100px;
+    height: 70px;
+    gap: 30px;
 }
